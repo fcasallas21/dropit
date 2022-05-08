@@ -22,6 +22,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'carrierwave', '~> 2.2', '>= 2.2.2'
+gem 'friendly_id', '~> 5.4.0'
+gem 'punching_bag', '~> 0.7.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

@@ -1,5 +1,6 @@
 class Post < ApplicationRecord
   has_many :punches
+  has_many :comments
   extend FriendlyId
   friendly_id :title, use: :slugged
   acts_as_punchable

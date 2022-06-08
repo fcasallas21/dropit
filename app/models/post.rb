@@ -1,4 +1,5 @@
 class Post < ApplicationRecord
+  has_rich_text :description
   has_many :punches
   has_many :comments
   extend FriendlyId

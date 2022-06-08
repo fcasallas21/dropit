@@ -29,6 +29,7 @@ class PostsController < ApplicationController
     else
        render :edit, status: :unprocessable_entity
     end
+  end
 
 
   private
@@ -36,5 +37,4 @@ class PostsController < ApplicationController
   def post_params
     params.require(:post).permit(:file)
   end
-
 end

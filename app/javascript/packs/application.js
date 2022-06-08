@@ -23,7 +23,7 @@ import 'css/styles'
 
 require("@popperjs/core")
 
-import "bootstrap"
+
 
 
 import { Tooltip, Popover } from "bootstrap"
@@ -43,3 +43,5 @@ document.addEventListener("turbolinks:load", () => {
         return new Popover(popoverTriggerEl)
     })
 })
+require("trix")
+require("@rails/actiontext")
